@@ -15,7 +15,7 @@
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
             (pkgs.python313.withPackages(p: with p; [
-              # requests, ... 
+              requests
             ]))
           ];
 
