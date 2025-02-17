@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='based-random',
-    version='0.1.0',    
+    version='0.1.1',    
     description='Generates a random number based on the unit-type of the based.cooking website',
     url='https://github.com/Giftzwerg02/based-random',
     author='Giftzwerg02',
