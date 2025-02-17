@@ -17,6 +17,7 @@
             (pkgs.python313.withPackages(p: with p; [
               requests
               beautifulsoup4
+              setuptools
             ]))
           ];
 
