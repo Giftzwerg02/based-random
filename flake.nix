@@ -16,6 +16,7 @@
           buildInputs = with pkgs; [
             (pkgs.python313.withPackages(p: with p; [
               requests
+              beautifulsoup4
             ]))
           ];
 
