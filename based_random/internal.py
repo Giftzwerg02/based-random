@@ -17,7 +17,7 @@ def _time() -> int:
     now = datetime.now()
     return int(now.timestamp() * 10**6) 
 
-def _iter_time() -> Generator[int]:
+def _iter_time() -> Generator[int, None, None]:
     while True:
         ts = _time()
         bit = 1
